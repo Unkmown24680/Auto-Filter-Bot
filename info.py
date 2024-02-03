@@ -68,7 +68,7 @@ else:
     SUPPORT_GROUP = int(SUPPORT_GROUP)
 
 # for chatGPT
-OPENAI_API = environ.get('OPENAI_API', '')
+OPENAI_API = environ.get('OPENAI_API', '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')
 if len(OPENAI_API) == 0:
     print('Info - OPENAI_API is empty')
 
@@ -122,7 +122,7 @@ if len(BIN_CHANNEL) == 0:
     exit()
 else:
     BIN_CHANNEL = int(BIN_CHANNEL)
-URL = environ.get("URL", "")
+URL = environ.get("URL", "https://conceptual-belia-unknown2468.koyeb.app/")
 if len(URL) == 0:
     print('Error - URL is missing, exiting now')
     exit()
